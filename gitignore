@@ -1,0 +1,16 @@
+# ===== NetBeans =====
+nbproject/private/
+nbproject/genfiles.properties
+
+# ===== Build Outputs =====
+build/
+dist/
+*.class
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs & Temp =====
+*.log
+*.tmp

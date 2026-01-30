@@ -21,7 +21,7 @@ public class Home extends JFrame implements ActionListener {  // Home class exte
         // Setting background image on frame
         // ImageIcon is used to load image from resource
         // ClassLoader.getSystemResource is used to get image path from project directory
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("airline_management_system/icons/info.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("airline_management_system/icons/front.png"));
         JLabel image = new JLabel(i1); // JLabel is used because we can’t directly place an ImageIcon on JFrame
         image.setBounds(0, 0, 1600, 800); // setting image size on frame
         add(image); // adding image to JFrame
@@ -29,7 +29,7 @@ public class Home extends JFrame implements ActionListener {  // Home class exte
         image.setBackground(Color.BLACK); // <--- set background black for areas not covered by image
 
         // Adding heading label over the image
-        JLabel heading = new JLabel("9/11 Maqsad AirLines "); // setting heading text
+        JLabel heading = new JLabel("Sky Ways"); // setting heading text
         heading.setBounds(700, 30, 480, 50); // x, y, width, height
         heading.setForeground(Color.BLACK); // setting font color
         heading.setOpaque(true); // allows us to set background

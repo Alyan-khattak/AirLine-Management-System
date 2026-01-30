@@ -26,7 +26,7 @@ public class BoardingPass extends JFrame implements ActionListener {
         setLayout(null);
 
         // Background image
-        ImageIcon bgIcon = new ImageIcon(ClassLoader.getSystemResource("airline_management_system/icons/boardingBG.png"));
+        ImageIcon bgIcon = new ImageIcon(ClassLoader.getSystemResource("airline_management_system/icons/front.png"));
         Image bgImg = bgIcon.getImage().getScaledInstance(1000, 550, Image.SCALE_SMOOTH);
         JLabel background = new JLabel(new ImageIcon(bgImg));
         background.setBounds(0, 0, 1000, 550);
@@ -200,7 +200,7 @@ public class BoardingPass extends JFrame implements ActionListener {
         panel.add(labelprice);        
         
         // Image Icon
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("airline_management_system/icons/bording.png"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("airline_management_system/icons/cancel.jpg"));
         Image i2 = i1.getImage().getScaledInstance(200, 130, Image.SCALE_DEFAULT);
         ImageIcon image = new ImageIcon(i2);
         JLabel lblimage = new JLabel(image);

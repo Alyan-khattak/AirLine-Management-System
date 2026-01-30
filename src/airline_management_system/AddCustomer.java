@@ -16,7 +16,7 @@ public class AddCustomer extends JFrame implements ActionListener {
         // ------- FRAME SETUP --------
         setSize(900, 600); // Set the width and height of the frame
         setLocation(300, 150); // Position of frame on the screen
-        setTitle("Add Customer | 9/11 Maqsad Airlines"); // Frame title
+        setTitle("Add Customer"); // Frame title
 
         // ------- FRAME BACKGROUND COLOR --------
         getContentPane().setBackground(new Color(245, 245, 255)); // Light blue background
